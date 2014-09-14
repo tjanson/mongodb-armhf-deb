@@ -1,0 +1,8 @@
+#!/bin/sh
+# postrm script for mongodb
+
+set -e
+
+rm -rf /var/run/mongodb
+
+exit 0

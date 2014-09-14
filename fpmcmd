@@ -1,0 +1,22 @@
+fpm \
+-s dir -t deb \
+-n mongodb \
+-v "2.1.1" \
+--license "AGPL 3.0" \
+--depends adduser \
+--depends libboost-dev \
+--provides mongo \
+--provides mongodb \
+--architecture armhf \
+--category database \
+--config-files etc/mongod.conf \
+--directories var/lib/mongodb \
+--directories var/log/mongodb \
+--directories var/run/mongodb \
+--maintainer "Tom Janson <tom.janson@rwth-aachen.de>" \
+--edit \
+--description "MongoDB is a high-performance, open source, schema-free document-oriented data store that's easy to deploy, manage and use." \
+--url http://www.mongodb.org \
+--after-install mongodb.postinst \
+--after-remove mongodb.postrm \
+etc/ usr/ var/
