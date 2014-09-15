@@ -10,9 +10,9 @@ Packaged with `init` and `conf` files for Raspbian based on [Debian](http://sour
 Download & Installation
 -----------------------
 
-Download the [`monogdb_2.1.1_armhf.deb` package](https://github.com/tjanson/mongodb-armhf-deb/raw/release/mongodb_2.1.1_armhf.deb) from [`release`](https://github.com/tjanson/mongodb-armhf-deb/tree/release) branch:
+Download the [`monogdb_2.1.1_armhf.deb` package](https://github.com/tjanson/mongodb-armhf-deb/releases/download/v2.1.1-1/mongodb_2.1.1_armhf.deb):
 
-> ```wget https://github.com/tjanson/mongodb-armhf-deb/raw/release/mongodb_2.1.1_armhf.deb```
+> ```wget https://github.com/tjanson/mongodb-armhf-deb/releases/download/v2.1.1-1/mongodb_2.1.1_armhf.deb```
 
 Install:
 
