@@ -9,7 +9,7 @@ fpm \
 --provides mongodb \
 --architecture armhf \
 --category database \
---config-files etc/mongod.conf \
+--config-files etc/mongodb.conf \
 --directories var/lib/mongodb \
 --directories var/log/mongodb \
 --directories var/run/mongodb \
